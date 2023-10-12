@@ -1,0 +1,60 @@
+/* Set default font family and size */
+body, html {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    min-height: 100%;
+}
+
+html {
+    background-image: url("train.png");
+    background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+/* Set default text color */
+
+/* Set default background color */
+body {
+    color : #ddd;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    padding: 30px 0;
+    background-color: #2227;
+    backdrop-filter: blur(7px);
+}
+
+/* Set default link styles */
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1#title {
+    font-size: 50px;
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 0;
+    color : #ffca80;
+}
+
+
+img {
+    margin: 20px;
+    width: calc(100% - 40px);
+    
+}
+#main{
+    
+    margin: 10px;
+}
+
+h1, h2, h3, ol>li::marker{
+    color : #ffca80;
+}
+
